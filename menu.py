@@ -16,9 +16,13 @@ def fazer_reserva():
     matricula = input("\nDigite a matrícula do aluno: \n")
     atividade = input("Digite a atividade que deseja reservar (musculação, spinning, natação): \n")
     dataStr = input("Digite a data e hora para o dia da atividade (dia/mês/ano hora:minuto):\n")
-    dataMarcada = datetime.strptime(dataStr, "%d/%m/%Y %H:%M")
+    dataMarcada = datetime.strptime(dataStr, "%d/%m/%Y %H:%M").strftime("%d/%m/%Y %H:%M")
     status = input("Digite o status dessa atividade (Reservado, Confirmado, Concluído, Cancelado): \n")
-    print
+    print(f"\n___Reserva concluida___\n\n")
 
     r = Reserva(matricula, atividade, dataMarcada, status)
     r.reservar()
+
+def read_reservas():
+    with open("reserva.txt", "r") as arquivo:
+        print(arquivo.read())

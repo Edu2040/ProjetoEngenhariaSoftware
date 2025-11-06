@@ -24,3 +24,4 @@ class Reserva:
         with open("reserva.txt", "a") as arquivo:
             arquivo.write(f"Horário que a reserva foi feita {reformadatarv}\nAluno(a) {name} fez uma reserva para o dia {self.datahora}"
                         f" na atividade {self.atividade}\nStatus da reserva: {self.status}\n\n")
+

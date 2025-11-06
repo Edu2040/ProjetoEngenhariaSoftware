@@ -22,3 +22,7 @@ Horário que a reserva foi feita 06/11/2025 16:37:24
 Aluno(a) Manoel fez uma reserva para o dia 2025-11-07 19:30:00 na atividade musculação
 Status da reserva: Reservado
 
+Horário que a reserva foi feita 06/11/2025 16:55:07
+Aluno(a) Ednolia Carregosa fez uma reserva para o dia 2025-11-22 08:40:00 na atividade spinning
+Status da reserva: Confirmado
+
