@@ -2,7 +2,7 @@ from codepy.aluno import Aluno
 from codepy.reserva import Reserva
 from datetime import datetime
 
-
+# Apenas para deixar o main.py mais organizado
 
 def fazer_cadastro():
     try:
