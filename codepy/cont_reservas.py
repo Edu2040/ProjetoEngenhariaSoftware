@@ -1,7 +1,6 @@
 import os.path
 import json
 
-
 def contar_reservas():
 
     json_path = "codepy/filedata/dados.json"
